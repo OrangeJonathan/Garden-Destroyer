@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b83b24e4e6b7a04193a5284bbc22453, type: 3}
+  m_Name: BlueTulip
+  m_EditorClassIdentifier: 
+  plantName: Tulip
+  plantDescription: A flower
+  growthTime: 15
+  growthRate: 0.5
+  harvestPrice: 15
+  plantCost: 50
+  plantSprites:
+  - {fileID: 21300000, guid: ed48a13533a16a04dad6a93ebcdf7718, type: 3}
+  - {fileID: 21300000, guid: ae8d58c4a3feb4848bd8deccecba5d18, type: 3}
+  - {fileID: 21300000, guid: 5c588b48db4829c44a66c4c81e143b03, type: 3}
+  - {fileID: 21300000, guid: 9fdd01cb3fcbd81458724c4b3c3a0cb5, type: 3}
+  - {fileID: 21300000, guid: e681a079780caed4d889fb669012c431, type: 3}
