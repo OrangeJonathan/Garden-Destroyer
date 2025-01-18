@@ -6,9 +6,9 @@ using UnityEngine;
 public class PlantingManager : MonoBehaviour
 {
     [Header("Settings")]
-    private float timeBetweenPlanting = 5.0f;
-    private float timeSinceLastPlanting = 0.0f;
-    private bool isPlanting = false;
+    [SerializeField] private float timeBetweenPlanting = 5.0f;
+    [SerializeField] private float timeSinceLastPlanting = 0.0f;
+    [SerializeField] private bool isPlanting = false;
 
     [Header("Farm Tiles")]
     [SerializeField] private FarmTile[] farmTiles;

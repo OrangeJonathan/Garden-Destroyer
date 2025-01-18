@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b83b24e4e6b7a04193a5284bbc22453, type: 3}
   m_Name: PinkTulip
   m_EditorClassIdentifier: 
-  plantName: Tulip
+  plantName: Pink Tulip
   plantDescription: A flower
   growthTime: 10
   growthRate: 0.5

@@ -7,7 +7,7 @@ using UnityEngine.UIElements;
 public class NPC : MonoBehaviour
 {
     public float speed = 2.0f;
-    private FarmTile targetTile;
+    [SerializeField] private FarmTile targetTile;
     private Plant plantToPlant;
     [SerializeField] private PlantingManager plantingManager;
 
@@ -40,10 +40,11 @@ public class NPC : MonoBehaviour
     private void MoveTowardsTile()
     {
         navMeshAgent.SetDestination(targetTile.transform.position);
+        Debug.DrawLine(transform.position, targetTile.transform.position, Color.red);
 
         distance = Vector3.Distance(transform.position, targetTile.transform.position);
 
-        if (Vector3.Distance(transform.position, targetTile.transform.position) < 1.9f)
+        if (Vector3.Distance(transform.position, targetTile.transform.position) < 1f)
         {
             PlantSeed();
         }
